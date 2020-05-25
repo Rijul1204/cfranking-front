@@ -1,13 +1,82 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.alert-row td {
+    background-color: #fdf2e9;
+}
+
+.test {
+    text-align: center;
+}
+
+.table-title {
+    margin-top: 30px;
+}
+
+.rank-table {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.bold {
+    font-weight: bold
+}
+
+.grandmaster {
+    color: red !important;
+}
+
+.master {
+    color: orange !important;
+}
+
+.international-master {
+    color: orange !important;
+}
+
+.candidate-master {
+    color: purple !important;
+}
+
+.expert {
+    color: blue !important;;
+}
+
+.specialist {
+    color: Teal !important;;
+}
+
+.pupil {
+    color: green !important;;
+}
+
+.newbie {
+    color: gray !important;;
 }
